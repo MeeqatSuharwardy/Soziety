@@ -1,0 +1,19 @@
+{
+  "name": "xhtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 8000",
+    "sass": "sass --watch assets/scss/main.scss assets/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "lite-server": "^2.6.1"
+  }
+}
